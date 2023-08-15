@@ -1,0 +1,32 @@
+/* ==================== 
+Navigation
+==================== */
+.nav-mobile {
+    top: 0%;
+    width: 100%;
+    z-index: 999;
+    display: flex;
+    padding: 32px;
+    justify-content: space-between;
+    background: rgba(251,251,251, 0.9);
+    backdrop-filter: saturate(100%) blur(10px);
+}
+
+.showreel-fixed {
+    z-index: -1;
+    position: fixed!important;
+}
+
+.spacer-300 {
+    height: 300px;
+}
+.mobile-content {
+    padding: 16px;
+    background: rgba(251,251,251, 0.9);
+    backdrop-filter: saturate(100%) blur(5px);
+}
+.hero-font {
+    font-family: second;
+    font-size: 17;
+    color: black;
+}

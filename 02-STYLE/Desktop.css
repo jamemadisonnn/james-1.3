@@ -1,0 +1,51 @@
+.nav-desktop {
+    top: 0%;
+    width: 100%;
+    z-index: 999;
+    display: flex;
+    padding: 32px;
+    position: fixed;
+    justify-content: space-between;
+    background: rgba(251,251,251, 0.9);
+    backdrop-filter: saturate(100%) blur(10px);
+}
+.nav-link {
+    gap: 10px;
+}
+
+/* ==================== 
+Scroll Effect
+==================== */
+.scroll-one {
+    height: auto;
+    width: 50%;
+}
+.scroll-one-fix {
+    top: 0%;
+    height: 100vh;
+    position: sticky;
+}
+.item-end {
+    height: 15%;
+    display: flex;
+    align-items: flex-end;
+}
+.scroll-two {
+    width: 50%;
+}
+
+.portfolio-image {
+    width: 100%;
+    max-height: 490px;
+    object-fit: cover;
+}
+
+
+
+.footer-background {
+    background: #f5f5f7;
+}
+
+.test {
+    height: 200vh;
+}
